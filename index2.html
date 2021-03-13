@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>10 CT5 - LINKS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://i.postimg.cc/QCKd7d6P/10ct5.png"><style>
+html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
+.w3-bar-block .w3-bar-item {padding: 16px}
+</style>
+<body>
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:3;width:320px;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" title="Close Sidemenu" 
+  class="w3-bar-item w3-button w3-hide-large w3-large">Close <i class="fa fa-remove"></i></a>
+  <a id="myBtn" onclick="myFunc('Demo1')" href="javascript:void(0)" class="w3-bar-item w3-button"><i class="fa fa-inbox w3-margin-right"></i>Links<i class="fa fa-caret-down w3-margin-left"></i></a>
+  <div id="Demo1" class="w3-hide w3-animate-left">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Borge');w3_close();" id="firstTab">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/0yr1yyQ1/pngegg.png" style="width:15%;"><span class="w3-opacity w3-large">Biologia e Geologia</span>
+        <h6>Links:</h6>
+        <p></p>
+      </div>
+    </a>
+     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Jane');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/wvYGd6Zz/kisspng-computer-icons-encapsulated-postscript-clip-art-chemistry-icon-5b22702be24084-16981909152898.png" style="width:15%;"><span class="w3-opacity w3-large">Físico-Química</span>
+        <h6>Links:</h6>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('John');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/k5ZBM5d2/matematica.png" style="width:15%;"><span class="w3-opacity w3-large">Matemática</span>
+        <h6>Links:</h6>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Portugues');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/FFPRmQMt/portugal.png" style="width:15%;"><span class="w3-opacity w3-large">Português</span>
+        <h6>Links:</h6>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Filosofia');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/bvbgcgrM/kisspng-the-oxford-dictionary-of-philosophy-ancient-greece-vectors-free-download-icon-thought-5ab086.png" style="width:15%;"><span class="w3-opacity w3-large">Filosofia</span>
+        <h6>Links:</h6>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Espanhol');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/y65HvYqN/espanha.png" style="width:15%;"><span class="w3-opacity w3-large">Espanhol</span>
+        <h6>Links:</h6>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Ingles');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/W4BkjcC6/united-kingdom.png" style="width:15%;"><span class="w3-opacity w3-large">Inglês</span>
+        <h6>Links:</h6>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('EF');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://i.postimg.cc/Y0mD07Cr/pngwing-com-3.png" style="width:15%;"><span class="w3-opacity w3-large">Educação Física</span>
+        <h6>Links:</h6>
+      </div>
+    </a>
+    <a href="https://turmact5.ga" class="w3-bar-item w3-button"><i class="fa fa-home w3-margin-right"></i>Voltar a Página inicial</a>
+  </div>
+  
+</nav>
+
+<!-- Modal that pops up when you click on "New Message" -->
+<div id="id01" class="w3-modal" style="z-index:4">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-padding w3-red">
+       <span onclick="document.getElementById('id01').style.display='none'"
+       class="w3-button w3-red w3-right w3-xxlarge"><i class="fa fa-remove"></i></span>
+      <h2>Send Mail</h2>
+    </div>
+    <div class="w3-panel">
+      <label>To</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <label>From</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <input class="w3-input w3-border w3-margin-bottom" style="height:150px" placeholder="What's on your mind?">
+      <div class="w3-section">
+        <a class="w3-button w3-red" onclick="document.getElementById('id01').style.display='none'">Cancel  <i class="fa fa-remove"></i></a>
+        <a class="w3-button w3-light-grey w3-right" onclick="document.getElementById('id01').style.display='none'">Send  <i class="fa fa-paper-plane"></i></a> 
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- Overlay effect when opening the side navigation on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="Close Sidemenu" id="myOverlay"></div>
+
+<!-- Page content -->
+<div class="w3-main" style="margin-left:320px;">
+<i class="fa fa-bars w3-button w3-white w3-hide-large w3-xlarge w3-margin-left w3-margin-top" onclick="w3_open()"></i>
+
+
+<div id="Borge" class="w3-container person">
+  <br>
+  <img class="w3-round  w3-animate-top" src="https://i.postimg.cc/0yr1yyQ1/pngegg.png" style="width:20%;"><h1>Biologia e Geologia</h1>
+  <hr>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1BG {border-radius: 12px;}
+.button2BG {border-radius: 12px;}
+.button3BG {border-radius: 12px;}
+.button4BG {border-radius: 12px;}
+
+</style>
+</head>
+<body>
+
+<center><p><button onclick="location.href='https://www.youtube.com/playlist?list=PLl5HSuc6dt_uY4Y70bZ_Fy31f_hcZnNnB';" class="button button1BG">Vídeos Explicativos</button>
+<p><button onclick="location.href='https://www.rtp.pt/play/estudoemcasa/p7869/e529605/biologia-e-geologia-biologia-estudo-do-movimento-10-ano';" class="button button2BG">Estudo Em Casa</button>
+<p><button onclick="location.href='https://www.obichinhodosaber.com/biologia-e-geologia-10o-ano-materia-resumos-e-exercicios/';" class="button button3BG">Resumos e Exercicios</button>
+<p><button onclick="location.href='https://pt.slideshare.net/VP15/resumos-biologia-geologia-geologia-10-ano';" class="button button4BG">Resumos PDF</button></center>
+
+
+</body>
+</html>
+
+</div>
+
+<div id="Jane" class="w3-container person">
+  <br>
+  <img class="w3-round w3-animate-top" src="https://i.postimg.cc/wvYGd6Zz/kisspng-computer-icons-encapsulated-postscript-clip-art-chemistry-icon-5b22702be24084-16981909152898.png" style="width:20%;"><h1>Físico-Química</h1>
+
+  <hr>
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+.buttonfq {
+  background-color: #ffff00; /* Green */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1FQ {border-radius: 12px;}
+.button2FQ {border-radius: 12px;}
+.button3FQ {border-radius: 12px;}
+.button4FQ {border-radius: 12px;}
+.button5FQ {border-radius: 12px;}
+.button6FQ {border-radius: 12px;}
+.button7FQ {border-radius: 12px;}
+.button8FQ {border-radius: 12px;}
+
+
+</style>
+</head>
+<body>
+
+<center><p><button onclick="location.href='https://www.youtube.com/playlist?list=PLl5HSuc6dt_tfBaCpUz70VnRytszIS4ZR';" class="buttonfq button1FQ">Vídeos Explicativos</button>
+<p><button onclick="location.href='https://www.rtp.pt/play/estudoemcasa/p7874/fisica-e-quimica-a-fisica-e-quimica-fisica-do-som-10-ano';" class="buttonfq button2FQ">Estudo Em Casa</button>
+<p><button onclick="location.href='https://fq.pt/?view=article&id=346:10-ano-quimica&catid=27';" class="buttonfq button3FQ">Resumos</button>
+<p><button onclick="location.href='http://www.fq.ciberprof.com/Ex_Qui_1.html';" class="buttonfq button4FQ">Exericios e Testes Química</button>
+<p><button onclick="location.href='http://www.fq.ciberprof.com/Ex_Fis_1.html';" class="buttonfq button5FQ">Exericios e Testes Física</button>
+<p><button onclick="location.href='http://www.fq.ciberprof.com/Mat_FQA1.html';" class="buttonfq button6FQ">Matereais de Apoio</button>
+<p><button onclick="location.href='https://cfq.absolutamente.net/joomla/index.php/recursos';" class="buttonfq button6FQ">Física e Química? Absolutamente!</button>
+<p><button onclick="location.href='http://www.fq.ciberprof.com/Link_FQ.html';" class="buttonfq button7FQ">+ Links</button></center>
+
+
+</body>
+</html>
+
+</div>
+
+<div id="John" class="w3-container person">
+  <br>
+  <img class="w3-round w3-animate-top" src="https://i.postimg.cc/k5ZBM5d2/matematica.png" style="width:20%;"><h1>Matemática</h1>
+
+  <hr>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.buttonMAT {
+  background-color: #d279a6; /* Green */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1MAT {border-radius: 12px;}
+.button2MAT {border-radius: 12px;}
+.button3MAT {border-radius: 12px;}
+.button4MAT {border-radius: 12px;}
+.button5MAT {border-radius: 12px;}
+.button6MAT {border-radius: 12px;}
+.button7MAT {border-radius: 12px;}
+
+
+</style>
+</head>
+<body>
+
+<center><p><button onclick="location.href='http://matematicaonline.pt/materialescolar/mata10ano.html';" class="buttonMAT button1MAT">Vídeos Explicativos E Exercícios</button>
+<p><button onclick="location.href='https://www.rtp.pt/play/estudoemcasa/p7882/matematica-a-10-ano';" class="buttonMAT button2MAT">Estudo Em Casa</button>
+<p><button onclick="location.href='http://resumosmail.webcindario.com/10ano/matematica10ano1.pdf';" class="buttonMAT button3MAT">Mimi Resumo</button>
+<p><button onclick="location.href='https://www.mathsuccess.pt/matematica-10-ano.html';" class="buttonMAT button4MAT">Exericios</button>
+<p><button onclick="location.href='https://fenix.tecnico.ulisboa.pt/homepage/ist178881/fichas-santillana-10-ano';" class="buttonMAT button5MAT">Fichas</button>
+<p><button onclick="location.href='http://www.mat.uc.pt/~mat1042/mat10/';" class="buttonMAT button6MAT">Propostas de Resolução do Manual</button>
+</center>
+
+
+</body>
+</html>
+
+</div>
+     <div id="Portugues" class="w3-container person">
+  <br>
+  <img class="w3-round  w3-animate-top" src="https://i.postimg.cc/FFPRmQMt/portugal.png" style="width:20%;"><h1>Português</h1>
+  <hr>
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+.buttonPT {
+  background-color: #eb99ff; /* Green */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1PT {border-radius: 12px;}
+.button2PT {border-radius: 12px;}
+.button3PT {border-radius: 12px;}
+.button4PT {border-radius: 12px;}
+.button5PT {border-radius: 12px;}
+.button6PT {border-radius: 12px;}
+.button7PT {border-radius: 12px;}
+
+
+</style>
+</head>
+<body>
+
+<center><p><button onclick="location.href='https://portugues-fcr.blogspot.com/p/10-ano.html';" class="buttonPT button1PT">Resumos</button>
+<p><button onclick="location.href='https://www.rtp.pt/play/estudoemcasa/p7884/portugues-10-ano';" class="buttonPT button2PT">Estudo Em Casa</button>
+<p><button onclick="location.href='https://pt.slideshare.net/RitaPereira2/56529259-apontamentosportugues110ano';" class="buttonPT button3PT">Mimi Resumo Global</button>
+<p><button onclick="location.href='https://bemexplicado.pt/secundario/10o-ano/10o-portugues/';" class="buttonPT button4PT">Fichas</button>
+<p><button onclick="location.href='https://turmact5.ga/docs/resolucoes-manual-pt.pdf';" class="buttonPT button5PT">Propostas de Solução do Manual</button>
+</center>
+
+
+</body>
+</html>
+</div>
+<div id="Filosofia" class="w3-container person">
+  <br>
+  <img class="w3-round  w3-animate-top" src="https://i.postimg.cc/bvbgcgrM/kisspng-the-oxford-dictionary-of-philosophy-ancient-greece-vectors-free-download-icon-thought-5ab086.png" style="width:20%;"><h1>Filosofia</h1>
+  <hr>
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+.buttonFILO {
+  background-color: #4db8ff; /* Green */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1FILO {border-radius: 12px;}
+.button2FILO {border-radius: 12px;}
+.button3FILO {border-radius: 12px;}
+.button4FILO {border-radius: 12px;}
+.button5FILO {border-radius: 12px;}
+.button6FILO {border-radius: 12px;}
+.button7FILO {border-radius: 12px;}
+
+
+</style>
+</head>
+<body>
+
+<center><p><button onclick="location.href='https://www.youtube.com/watch?v=7sWk4kwt10s&list=PLl5HSuc6dt_spYhFI6FnAM4DKdVID2jum';" class="buttonFILO button1FILO">Vídeos Explicativos</button>
+<p><button onclick="location.href='https://www.rtp.pt/play/estudoemcasa/p7885/filosofia-area-de-integracao-10-e-11-ano';" class="buttonFILO button2FILO">Estudo Em Casa</button>
+<p><button onclick="location.href='https://www.studocu.com/pt/document/ensino-secundario-portugal/filosofia/resumos/filosofia-resumo-10ano/8940008/view';" class="buttonFILO button3FILO">Resumos</button>
+<p><button onclick="location.href='https://sites.google.com/site/filosofarliberta/home/fichas---10o-ano';" class="buttonFILO button4FILO">Fichas</button>
+<p><button onclick="location.href='https://bemexplicado.pt/secundario/10o-ano/10o-filosofia/';" class="buttonFILO button4FILO">+ Fichas</button>
+</center>
+
+
+</body>
+</html>
+
+</div>
+<div id="Espanhol" class="w3-container person">
+  <br>
+  <img class="w3-round  w3-animate-top" src="https://i.postimg.cc/y65HvYqN/espanha.png" style="width:20%;"><h1>Espanhol</h1>
+  <hr>
+  <p>Separador de Espanhol</p>
+  <p>Ainda sem contéudos</p>
+</div>
+<div id="Ingles" class="w3-container person">
+  <br>
+  <img class="w3-round  w3-animate-top" src="https://i.postimg.cc/W4BkjcC6/united-kingdom.png" style="width:20%;"><h1>Inglês</h1>
+  <hr>
+  <p>Separador de Inglês</p>
+  <p>Ainda sem contéudos</p>
+</div>
+<div id="EF" class="w3-container person">
+  <br>
+  <img class="w3-round  w3-animate-top" src="https://i.postimg.cc/Y0mD07Cr/pngwing-com-3.png" style="width:20%;"><h1>Educação Física</h1>
+  <hr>
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+.buttonEF {
+  background-color: #33ffd6; /* Green */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1EF {border-radius: 12px;}
+.button2EF {border-radius: 12px;}
+.button3EF {border-radius: 12px;}
+.button4EF {border-radius: 12px;}
+.button5EF{border-radius: 12px;}
+.button6EF {border-radius: 12px;}
+.button7EF {border-radius: 12px;}
+
+
+</style>
+</head>
+<body>
+
+<center><p><button onclick="location.href='https://www.youtube.com/watch?v=FFLtEbcKNSY&t=609s';" class="buttonEF button1EF">Jerusalema</button>
+<p><button onclick="location.href='https://www.rtp.pt/play/estudoemcasa/p7865/educacao-fisica-10-ao-12-ano';" class="buttonEF button2EF">Estudo Em Casa</button>
+<p><button onclick="location.href='https://cdn.discordapp.com/attachments/806620368889839636/819608745339519056/Rumba_facil.mp3
+';" class="buttonEF button3EF">Rumba Fácil Aúdio</button>
+</center>
+
+
+</body>
+</html>
+
+</div>
+</div>
+
+<script>
+var openInbox = document.getElementById("myBtn");
+openInbox.click();
+
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+function myFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show"; 
+    x.previousElementSibling.className += " w3-red";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-red", "");
+  }
+}
+
+openMail("Borge")
+function openMail(personName) {
+  var i;
+  var x = document.getElementsByClassName("person");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x = document.getElementsByClassName("test");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" w3-light-grey", "");
+  }
+  document.getElementById(personName).style.display = "block";
+  event.currentTarget.className += " w3-light-grey";
+}
+</script>
+
+<script>
+var openTab = document.getElementById("firstTab");
+openTab.click();
+</script>
+
+</body>
+</html> 
